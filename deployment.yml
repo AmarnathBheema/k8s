@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: ecomm-deployment
   labels: 
-    app: ecomm-app
     tier: frontend
 spec:
   replicas: 4
